@@ -1,6 +1,5 @@
 import pickle
 import streamlit as st
-import pandas as pd
 
 model = pickle.load(open('estimasi_medical.sav', 'rb'))
 
