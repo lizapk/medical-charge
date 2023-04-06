@@ -13,7 +13,7 @@ children = st.number_input('Input Jumlah Anak Yang di Cover Asuransi')
 smoker = st.number_input('Apakah Anda Merokok? (N/Y)')
 
 df = pd.DataFrame({'sex': ['M', 'F', 'F', 'M']})
-def convert_gender(gender):
+def convert_gender(sex):
     if sex == 'M':
         return 1
     elif sex == 'F':
